@@ -1,0 +1,205 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "userId": "admin",
+      "password": "1234",
+      "name": "관리자",
+      "email": "admin@naver.com"
+    },
+    {
+      "userId": "ronald",
+      "password": "dmlcjf6265",
+      "confirmPassword": "dmlcjf6265",
+      "name": "정의철이요",
+      "email": "rororo@naver.com",
+      "id": "4996"
+    },
+    {
+      "id": "86f1",
+      "userId": "rororo",
+      "password": "rororo123",
+      "confirmPassword": "rororo123",
+      "name": "로로로",
+      "email": "rororo@naver.com"
+    },
+    {
+      "id": "32e0",
+      "userId": "user01",
+      "password": "dmlcjf6265",
+      "confirmPassword": "dmlcjf6265",
+      "name": "개발자1",
+      "email": "programmer@naver.com"
+    },
+    {
+      "id": "48ab",
+      "userId": "user05",
+      "password": "user055",
+      "confirmPassword": "user055",
+      "name": "유저5",
+      "email": "user5@naver.com"
+    },
+    {
+      "id": "0ced",
+      "userId": "user02",
+      "password": "12345678",
+      "confirmPassword": "12345678",
+      "name": "저에요",
+      "email": "rororororo@naver.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "userId": "admin",
+      "title": "리액트가 너무 어렵네요",
+      "stack": "리액트",
+      "content": "괄호 처리가 아직 익숙하지가 않습니다. 어떻게 해야할까요?",
+      "createdAt": "2025-05-05"
+    },
+    {
+      "id": "2",
+      "title": "자바어려워요",
+      "userId": "ronald",
+      "stack": "자바",
+      "content": "자바를 어떻게 잡아야할까요?",
+      "createdAt": "2025-05-06"
+    },
+    {
+      "id": "4",
+      "title": "오버라이딩은 뭔가요",
+      "content": "너무 궁금하네요",
+      "stack": "자바",
+      "userId": "admin",
+      "createdAt": "2025-05-06"
+    },
+    {
+      "id": "5",
+      "title": "자바스크립트와 자바는 무슨 관계인가요?",
+      "content": "너무 궁금합니다",
+      "stack": "자바스크립트",
+      "userId": "admin",
+      "createdAt": "2025-05-06"
+    },
+    {
+      "id": "6",
+      "title": "CSS를 잘 하고 싶은데 어떻게 해야할까요?",
+      "content": "제목 그대로 입니다. CSS를 잘 하고 싶으면 어떻게 해야할까요?",
+      "stack": "CSS",
+      "userId": "user01",
+      "createdAt": "2025-05-07"
+    },
+    {
+      "id": "7",
+      "title": "InnerJoin과 LeftJoin의 차이가 궁금합니다.",
+      "content": "제목 그대로 입니다. 너무 궁금해요 알려주세요.",
+      "stack": "데이터베이스",
+      "userId": "user01",
+      "createdAt": "2025-05-07"
+    },
+    {
+      "id": "8",
+      "title": "JSP와 JYP의 차이는 뭔가요?",
+      "content": "알려주세요",
+      "stack": "JSP",
+      "userId": "user01",
+      "createdAt": "2025-05-07"
+    },
+    {
+      "id": "9",
+      "title": "자바스크립트와 리액트의 차이는 뭔가요?",
+      "content": "궁금합니다 알려주세요",
+      "stack": "자바스크립트",
+      "userId": "user01",
+      "createdAt": "2025-05-07"
+    },
+    {
+      "id": "10",
+      "title": "CS를 잘 먹으면 CSS도 잘 할 수 있나요?",
+      "content": "궁금합니다.",
+      "stack": "CSS",
+      "userId": "user01",
+      "createdAt": "2025-05-07"
+    },
+    {
+      "id": 11,
+      "title": "자바질문이요",
+      "content": "질문",
+      "stack": "자바",
+      "userId": "ronald",
+      "createdAt": "2025-05-07"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "postId": 3,
+      "userId": "ronald",
+      "content": "데이터베이스 정규화는 데이터베이스 내의 데이터 구조를 조직화하고 최적화하는 과정입니다.정규화를 하는 목적은 데이터 중복을 제거하고, 효율성을 향상시키며, 데이터 무결성을 보장하기 위함입니다.",
+      "createdAt": "2025-05-06"
+    },
+    {
+      "id": "bdbf",
+      "postId": 3,
+      "userId": "ronald",
+      "createdAt": "2025-05-06",
+      "content": "저도 이 부분 너무 헷갈려요 ㅠㅠ"
+    },
+    {
+      "id": "81d7",
+      "postId": 5,
+      "userId": "ronald",
+      "createdAt": "2025-05-06",
+      "content": "좋은 관계입니다."
+    },
+    {
+      "id": "8190",
+      "postId": 5,
+      "userId": "ronald",
+      "createdAt": "2025-05-06",
+      "content": "이름만 비슷한겁니다.둘은 아무 연관이 없어요"
+    },
+    {
+      "id": "9e4d",
+      "postId": 1,
+      "userId": "ronald",
+      "createdAt": "2025-05-07",
+      "content": "복습을 열심히 하셔야죠...다른 방법은 없습니다.오직 연습만이 살 길."
+    },
+    {
+      "id": "12f0",
+      "postId": 10,
+      "userId": "ronald",
+      "createdAt": "2025-05-07",
+      "content": "장난치면 신고합니다."
+    },
+    {
+      "id": "bdc3",
+      "postId": 10,
+      "userId": "ronald",
+      "createdAt": "2025-05-07",
+      "content": "혼인신고 "
+    },
+    {
+      "id": "12a2",
+      "postId": 9,
+      "userId": "ronald",
+      "createdAt": "2025-05-07",
+      "content": "JavaScript는 언어,웹 브라우저에서 동작하는 프로그래밍 언어입니다.DOM 조작, 이벤트 처리, 비동기 처리(fetch 등) 등을 할 수 있게 해줍니다."
+    },
+    {
+      "id": "edbf",
+      "postId": 9,
+      "userId": "ronald",
+      "createdAt": "2025-05-07",
+      "content": "React는 JavaScript로 만든 라이브러리, Facebook(메타)이 만든 UI 라이브러리이며, JavaScript 위에서 동작합니다.복잡한 UI를 효율적으로 만들고 관리할 수 있게 도와주는 도구입니다."
+    },
+    {
+      "id": "ee97",
+      "postId": 8,
+      "userId": "ronald",
+      "createdAt": "2025-05-07",
+      "content": "하이요"
+    }
+  ]
+}
