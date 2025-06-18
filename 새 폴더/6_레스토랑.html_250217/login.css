@@ -1,0 +1,27 @@
+.wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div, form, input{
+    box-sizing: border-box;
+}
+
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 396px;
+    height: 243.2;
+}
+
+#login-form-input{
+    height: 160px
+}
+
+#login-form-input input{
+    height: 50px;
+}
